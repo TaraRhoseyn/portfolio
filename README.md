@@ -16,3 +16,4 @@ Portfolio website for recruiters, potential employers and collaborators.
 
 - Blog
 - Possibility of converting the website into a freelancing website
+- UX portfolio built into Design

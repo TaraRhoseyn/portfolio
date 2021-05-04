@@ -19,6 +19,13 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
 p {
     font-family: 'Lato', sans-serif;
 }
@@ -170,3 +177,27 @@ nav ul li {
     background-position: center center;
     background-size: cover;
 }
+
+#home-marketing h2, #home-marketing ul {
+    color: black;
+}
+
+#home-marketing h2 {
+    float: right;
+    margin-right: 180px;
+    padding-top: 100px;
+}
+
+#home-marketing ul {
+    clear: both;
+    margin-left: 780px;
+    padding-top: 80px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+#home-marketing span {
+    color: #FF00D6;
+    font-size: 45px;
+}
+

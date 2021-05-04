@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
 /* Global styles */ 
 
 html {
@@ -13,11 +14,14 @@ body {
 
 h1 {
     font-family: 'Lato', sans-serif;
-    font-size: 80px;
+    font-size: 50px;
     letter-spacing: 34px;
     font-weight: 900;
 }
 
+p {
+    font-family: 'Lato', sans-serif;
+}
 
 /* Navbar */ 
 
@@ -38,14 +42,15 @@ h1 {
 nav ul li {
         list-style: none;
         font-family: 'Lexend Deca', sans-serif;
-        letter-spacing: 8px;
+        letter-spacing: 6px;
         font-size: 12px;
         margin-right: 25px;
         margin-left: 25px;
     }
 
 .navlink-active {
-        font-weight: bold;
+    font-weight: bold;
+    color: #00FFFF;
 }
 
 .navbar-toggler-icon {
@@ -104,6 +109,7 @@ nav ul li {
 
 #home-hero h1 {
     margin-top: 150px;
+    font-size: 80px;
 }
 
 #home-hero span {
@@ -117,4 +123,41 @@ nav ul li {
     font-weight: 400;
 }
 
+@media screen and (max-width: 900px) {
+    
+    /* global styling on mobile */
 
+    h1 {
+        font-size: 35px;
+        letter-spacing: 14px;
+    }
+
+    /* to ensure appropriate spacing in hero section on mobile view */
+
+    #home-hero {
+        height: 300px;
+    }
+
+    #home-hero h1 {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    #home-hero p {
+        font-size: 15px;
+    }
+}
+
+/* intro section of home page */ 
+
+#home-introduction img {
+    height: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1000px) {
+    #introduction-p {
+        margin-top: 100px;
+    }   
+}

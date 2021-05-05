@@ -201,3 +201,12 @@ nav ul li {
     font-size: 45px;
 }
 
+#dev-head h1 {
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-top: 100px;
+}
+
+#dev-head span {
+    color: #FF00D6;
+}

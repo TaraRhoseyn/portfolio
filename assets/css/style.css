@@ -255,6 +255,40 @@ nav ul li {
     }
 }
 
+.intro {
+    height: 450px;
+}
+
+.intro img {
+    padding-top: 30px;
+}
+
+.card-body {
+    background-color: black;
+    border-style: none;
+    padding: 100px 0;
+}
+
+div.card {
+    border-style: none;
+}
+
+.svg-image {
+    -webkit-filter: grayscale(100) brightness(70);
+    filter: grayscale(100) brightness(70);
+}
+
+.svg-image-gray {
+    filter: grayscale(100)
+}
+
+img:hover {
+  filter:none;
+}
+
+img.bright-hover:hover {
+    filter: brightness(20);
+}
 
 #home-marketing h2, #home-marketing ul {
     color: black;

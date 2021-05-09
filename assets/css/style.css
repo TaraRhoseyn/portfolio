@@ -35,6 +35,58 @@ form label {
     letter-spacing: 1px;
 }
 
+/* Buttons */
+
+button {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 700;
+    border-style: hidden;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.pink-btn {
+    background-color: #FF00D6;
+    border: 1px solid #00FFFF;
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+    border-left-width: 0;
+    border-top-width: 0;
+    color: #fff;
+}
+
+.blue-btn {
+    background-color: #00FFFF;
+    border: 1px solid #FF00D6;
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+    border-left-width: 0;
+    border-top-width: 0;
+}
+
+.black-btn {
+    
+}
+
+/* Grow Rotate */
+
+.hvr-grow-rotate {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+
+.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+    -webkit-transform: scale(1.1) rotate(4deg);
+    transform: scale(1.1) rotate(4deg);
+}
 
 /* Navbar */ 
 
@@ -49,7 +101,7 @@ form label {
 }
 
 .navbar ul li a {
-    color: white;
+    color: #fff;
 }
 
 nav ul li {

@@ -117,7 +117,7 @@ nav ul li {
 #home-hero {
     margin: 0 auto;
     width: 100vw;
-    height: 90vh;
+    height: 50vh;
 }
 
 #home-hero h1 {
@@ -138,9 +138,9 @@ nav ul li {
 
 @media screen and (max-width: 900px) {
     
-    /* global styling on mobile */
+    /* hero styling on mobile */
 
-    h1 {
+    #home-hero h1 {
         font-size: 35px;
         letter-spacing: 14px;
     }
@@ -148,7 +148,7 @@ nav ul li {
     /* to ensure appropriate spacing in hero section on mobile view */
 
     #home-hero {
-        height: 300px;
+        height: 200px;
     }
 
     #home-hero h1 {
@@ -157,7 +157,11 @@ nav ul li {
     }
 
     #home-hero p {
-        font-size: 15px;
+        font-size: 10px;
+    }
+
+    #home-marketing h2, #home-marketing ul {
+        margin: 0;
     }
 }
 
@@ -184,28 +188,41 @@ nav ul li {
     background-size: cover;
 }
 
+
 #home-marketing h2, #home-marketing ul {
     color: black;
 }
 
-#home-marketing h2 {
+#home-marketing > #home-marketing-text{
     float: right;
-    margin-right: 180px;
-    padding-top: 100px;
+}
+
+@media screen and (min-width: 1024px) {
+    #home-marketing > #home-marketing-text {
+        margin-right: 180px;
+        padding: 100px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #home-marketing > #home-marketing-text {
+        margin-right: 580px;
+        padding: 100px;
+    }
 }
 
 #home-marketing ul {
-    clear: both;
-    margin-left: 780px;
-    padding-top: 80px;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
 }
+
 
 #home-marketing span {
     color: #FF00D6;
     font-size: 45px;
 }
+
+/* DEVELOPMENT PAGE */
 
 #dev-head h1 {
     font-size: 30px;

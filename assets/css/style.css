@@ -35,6 +35,10 @@ form label {
     letter-spacing: 1px;
 }
 
+i {
+    color: #fff;
+}
+
 /* Buttons */
 
 button {
@@ -279,10 +283,10 @@ nav ul li {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1000px) {
     #home-marketing > #home-marketing-text {
-        margin-right: 40px;
-        padding: 100px;
+        margin-top: 10px;
+        margin-right: 40px;    
     }
 }
 
@@ -290,7 +294,7 @@ nav ul li {
     #home-marketing > #home-marketing-text {
         margin-top: 100px;
         margin-right: 180px;
-        padding: 100px;
+        padding: 10px;
     }
 }
 
@@ -325,4 +329,36 @@ nav ul li {
 
 .ms1-website img {
     height: 50%;
+}
+
+/* FOOTER */ 
+
+footer {
+    height: 100px;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer i {
+    font-size: 40px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer a, .footer p span i {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.footer p span i {
+    padding: 0;
+    padding-left: 5px;
+}
+
+.footer i:hover {
+    color: #FF00D6;
 }

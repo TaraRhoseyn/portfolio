@@ -287,7 +287,12 @@ img:hover {
 }
 
 img.bright-hover:hover {
-    filter: brightness(20);
+    filter: brightness(10);
+}
+
+.card-body img {
+    height: 100px;
+    width: 100px;
 }
 
 #home-marketing h2, #home-marketing ul {

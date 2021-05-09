@@ -216,3 +216,13 @@ nav ul li {
 #dev-head span {
     color: #FF00D6;
 }
+
+.ms1-website {
+    margin-left: 0;
+	margin-right: 0;
+	float: none;
+}
+
+.ms1-website img {
+    height: 50%;
+}

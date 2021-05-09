@@ -2,8 +2,6 @@
 
 Portfolio website for recruiters, potential employers and collaborators. 
 
-[View the live website](https://tararhoseyn.github.io/tara-rhoseyn-portfolio/index.html)
-
 ## Features for First Release (v1)
 
 - Home landing page

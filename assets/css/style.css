@@ -140,6 +140,11 @@ nav ul li {
     
     /* hero styling on mobile */
 
+    #home-marketing {
+        background-color: white;
+        height: 450px;
+    }
+
     #home-hero h1 {
         font-size: 35px;
         letter-spacing: 14px;
@@ -177,15 +182,15 @@ nav ul li {
     #introduction-p {
         margin-top: 100px;
     }   
-}
 
-#home-marketing {
-    background-image: url("../images/home-marketing-bg.png");
-    height: 100vh;
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    #home-marketing {
+        background-image: url("../images/home-marketing-bg.png");
+        height: 100vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
 }
 
 
@@ -197,16 +202,36 @@ nav ul li {
     float: right;
 }
 
+/* mobile, tablet, and laptop stylings to ensure consistency of margins */
+
+@media screen and (min-width: 300px) {
+    #home-marketing > #home-marketing-text {
+        margin-right: 20px;
+        margin-left: 20px;
+        padding: 20px 0;
+    }
+
+    #home-marketing > #home-marketing-text h2 {
+        padding: 20px;
+    }
+
+    #home-introduction {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     #home-marketing > #home-marketing-text {
-        margin-right: 180px;
+        margin-right: 40px;
         padding: 100px;
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1140px) {
     #home-marketing > #home-marketing-text {
-        margin-right: 580px;
+        margin-top: 100px;
+        margin-right: 180px;
         padding: 100px;
     }
 }

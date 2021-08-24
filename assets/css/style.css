@@ -8,8 +8,8 @@ html {
 }
 
 body {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 h1 {
@@ -36,7 +36,7 @@ form label {
 }
 
 i {
-    color: #fff;
+    color: #000;
 }
 
 /* Buttons */
@@ -57,7 +57,7 @@ button {
     border-right-width: 3px;
     border-left-width: 0;
     border-top-width: 0;
-    color: #fff;
+    color: #000;
 }
 
 .blue-btn {
@@ -76,7 +76,7 @@ button {
     border-right-width: 3px;
     border-left-width: 0;
     border-top-width: 0;
-    color: #fff;
+    color: #000;
 }
 
 /* Grow Rotate */
@@ -111,7 +111,7 @@ button {
 }
 
 .navbar ul li a {
-    color: #fff;
+    color: #000;
 }
 
 nav ul li {
@@ -203,7 +203,7 @@ nav ul li {
     /* hero styling on mobile */
 
     #home-marketing {
-        background-color: white;
+        background-color:#000;
         height: 450px;
     }
 

@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-color: #fff;
+    background-color: #FFF5FD;
     color: #000;
 }
 
@@ -101,7 +101,9 @@ button {
 /* Navbar */ 
 
 .navbar {
-    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
 }
 
 .navbar ul {
@@ -166,7 +168,7 @@ nav ul li {
   position: absolute;
   left: 0;
   content: attr(dd-text);
-  color: #FF00D6;
+  color: #FF8811;
 }
 .dd-link.slide.bottom span::after {
   transform: translateY(-200%);
@@ -181,7 +183,7 @@ nav ul li {
 #home-hero {
     margin: 0 auto;
     width: 100vw;
-    height: 100vh;
+    height: 60vh;
 }
 
 #home-hero h1 {
@@ -191,13 +193,14 @@ nav ul li {
 
 #home-hero span {
     font-size: 100px;
-    color: #00FFFF;
+    color: #FF8811;
 }
 
 #home-hero p {
     font-family: 'Lato', sans-serif;
     letter-spacing: 10px;
-    font-weight: 400;
+    padding-top: 5px;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 900px) {
@@ -275,7 +278,6 @@ div.card {
 }
 
 .svg-image {
-
     filter: grayscale(100) 
 }
 
@@ -330,16 +332,7 @@ img:hover {
     }
 }
 
-#home-marketing ul {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-}
 
-
-#home-marketing span {
-    color: #FF00D6;
-    font-size: 45px;
-}
 
 /* DEVELOPMENT PAGE */
 

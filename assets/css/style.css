@@ -36,7 +36,7 @@ form label {
 }
 
 i {
-    color: #000;
+    color: #392F5A;
 }
 
 /* Navbar */ 
@@ -55,7 +55,7 @@ i {
 }
 
 .navbar ul li a {
-    color: #000;
+    color: #392F5A;
 }
 
 nav ul li {
@@ -74,9 +74,7 @@ nav ul li {
 
 .navlink-active {
     font-weight: 900;
-    border-bottom: 3px solid #FF8811;
     color: #FF8811;
-    border-radius: 15%;
 }
 
 /* Navbar link effect. */

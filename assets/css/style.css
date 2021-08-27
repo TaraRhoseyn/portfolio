@@ -45,6 +45,7 @@ i {
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #FFF8F0;
+    color: #392F5A
 }
 
 .navbar ul {
@@ -73,10 +74,9 @@ nav ul li {
 
 .navlink-active {
     font-weight: 900;
-    /* text-decoration: underline #9DD9D2;
-    text-underline-position: under left;  */
-    border-bottom: 3px solid #000;
-    padding-bottom: 3px;
+    border-bottom: 3px solid #FF8811;
+    color: #FF8811;
+    border-radius: 15%;
 }
 
 /* Navbar link effect. */

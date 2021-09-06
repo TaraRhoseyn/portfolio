@@ -9,4 +9,23 @@ function setActiveCls() {
         }
     }
 }
-console.log(navbar);
+
+// Typewriter effect
+
+let typedText = 'CODING COMMUNICATOR';
+let currentText = '';
+let letter = '';
+let index = 0;
+
+// Enclose function, runs once it's read
+(function typewriterEffect() {
+    currentText = typedText;
+    letter = currentText.slice(0, ++index);
+    document.querySelector('.typing').textContent = letter;
+    if(letter.length === currentText.length) {
+
+    }
+    setTimeout(typewriterEffect, 200);
+}());
+
+

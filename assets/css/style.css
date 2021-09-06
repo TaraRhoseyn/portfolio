@@ -162,7 +162,43 @@ nav ul li {
     font-family: 'Lato', sans-serif;
     letter-spacing: 10px;
     padding-top: 5px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* typewriter effect */ 
+
+#typewriter-container {
+    /* to make texts display next to each other */
+    display: flex;
+    /* figure out how to center */ 
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    margin-top: 30px;
+}
+
+.typing {
+    margin-left: 10px;
+    position: relative;
+}
+
+.typing::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 90%;
+    border-right: 2px solid black;
+    animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 900px) {

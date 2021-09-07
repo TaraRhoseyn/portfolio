@@ -40,14 +40,16 @@ i {
 }
 
 button {
-    background-color: #9DD9D2;
+    background-color: #6aebeb;
     color: #392F5A;
-    border: #392F5A 1px solid;
+    border: #6aebeb 1px solid;
     padding: 0.5%;
     padding-right: 2%;
     padding-left: 2%;
     border-radius: 15px;
-
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.5px;
 }
 
 /* Navbar */ 

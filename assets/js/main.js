@@ -39,21 +39,18 @@ let modeSwitchColor = ""
 function testMode() {
     modeSwitchColor = window.getComputedStyle(modeSwitch).backgroundColor;
     console.log(modeSwitchColor);
-    if (modeSwitchColor === "rgb(204, 204, 204)") {
+    if (modeSwitchColor === "rgb(161, 161, 161)") {
         initDarkMode();
     } else if (modeSwitchColor === "rgb(255, 136, 17)") {
         initLightMode();
     }
 }
 
-var lightMode = True;
-
 function initLightMode() {
     $('body').css('backgroundColor', '#F1EAE1').css('color', '#392F5A');
     $('.navbar').css('backgroundImage', 'linear-gradient(#FFF, #F1EAE1)');
     $('.nav-link').css('color', '#392F5A');
     $('path').attr("fill","#392F5A"); 
-    lightMode = True;
 }
 
 function initDarkMode() {
@@ -61,7 +58,6 @@ function initDarkMode() {
     $('body').css('color', '#F1EAE1').css('backgroundColor', '#392F5A');
     $('.navbar').css('backgroundImage', 'linear-gradient(#000, #392F5A)');
     $('path').attr("fill","#fff");   
-    lightMode = False;
 }
 
 // $('#logo-link').hover(

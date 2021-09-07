@@ -156,7 +156,7 @@ nav ul li {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: rgb(161, 161, 161);
   -webkit-transition: .4s;
   transition: .4s;
 }

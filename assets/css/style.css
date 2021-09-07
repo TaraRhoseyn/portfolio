@@ -8,14 +8,14 @@ html {
 }
 
 body {
-    background-color: #FFF8F0;
+    background-color: #F1EAE1;
     color: #392F5A;
 }
 
 h1 {
     font-family: 'Lato', sans-serif;
     font-size: 110px;
-    letter-spacing: 20px;
+    letter-spacing: 5px;
     font-weight: 900;
 }
 
@@ -44,7 +44,7 @@ i {
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
-    background-image: linear-gradient(#FFF, #FFF8F0);
+    background-image: linear-gradient(#FFF, #F1EAE1);
     color: #392F5A
 }
 
@@ -56,15 +56,17 @@ i {
 
 .navbar ul li a {
     color: #392F5A;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
 }
 
 nav ul li {
         list-style: none;
         font-family: 'Lexend Deca', sans-serif;
-        letter-spacing: 2px;
-        font-size: 12px;
-        margin-right: 25px;
-        margin-left: 25px;
+        letter-spacing: 1px;
+        margin-right: 15px;
+        margin-left: 20px;
     }
 
 .navbar-toggler-icon {
@@ -205,11 +207,11 @@ input:checked + .slider:before {
 #home-hero {
     margin: 0 auto;
     width: 100vw;
-    height: 60vh;
+    height: 30vh;
 }
 
 #home-hero h1 {
-    margin-top: 150px;
+    margin-top: 100px;
     font-size: 80px;
 }
 
@@ -272,7 +274,6 @@ input:checked + .slider:before {
 
     #home-hero h1 {
         font-size: 45px;
-        letter-spacing: 5px;
     }
 
     /* to ensure appropriate spacing in hero section on mobile view */

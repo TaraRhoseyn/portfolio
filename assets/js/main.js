@@ -47,13 +47,13 @@ function testMode() {
 }
 
 function initLightMode() {
-    $('body').css('backgroundColor', '#FFF8F0').css('color', '#392F5A');
-    $('.navbar').css('backgroundImage', 'linear-gradient(#FFF, #FFF8F0)');
+    $('body').css('backgroundColor', '#F1EAE1').css('color', '#392F5A');
+    $('.navbar').css('backgroundImage', 'linear-gradient(#FFF, #F1EAE1)');
     $('.nav-link').css('color', '#392F5A');
 }
 
 function initDarkMode() {
-    $('body').css('backgroundColor', '#392F5A').css('color', '#FFF8F0');
+    $('.nav-link').css('color', '#F1EAE1');
+    $('body').css('color', '#F1EAE1').css('backgroundColor', '#392F5A');
     $('.navbar').css('backgroundImage', 'linear-gradient(#000, #392F5A)');
-    $('.nav-link').css('color', '#FFF8F0');
 }

@@ -46,14 +46,33 @@ function testMode() {
     }
 }
 
+var lightMode = True;
+
 function initLightMode() {
     $('body').css('backgroundColor', '#F1EAE1').css('color', '#392F5A');
     $('.navbar').css('backgroundImage', 'linear-gradient(#FFF, #F1EAE1)');
     $('.nav-link').css('color', '#392F5A');
+    $('path').attr("fill","#392F5A"); 
+    lightMode = True;
 }
 
 function initDarkMode() {
     $('.nav-link').css('color', '#F1EAE1');
     $('body').css('color', '#F1EAE1').css('backgroundColor', '#392F5A');
     $('.navbar').css('backgroundImage', 'linear-gradient(#000, #392F5A)');
+    $('path').attr("fill","#fff");   
+    lightMode = False;
 }
+
+// $('#logo-link').hover(
+//     function() {
+//         $('path').attr("fill","#6AEBEB");
+//     }, function() {
+//         if (lightMode = True) {
+//             $('path').attr("fill","#392F5A");
+//         } else {
+//             $('path').attr("fill","#fff");
+//         };
+        
+//     };
+//   );

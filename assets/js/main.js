@@ -1,5 +1,14 @@
 // Controls navbar active elements based on location
 
+document.addEventListener('DOMContentLoaded',() => {
+    if (lightMode = false) {
+        initDarkMode();
+    } else {
+        initLightMode();
+    }
+    console.log(lightMode);
+});
+
 window.onload = setActiveCls;
 const navbar = document.getElementById('nav').getElementsByTagName('a');
 function setActiveCls() {
@@ -33,8 +42,9 @@ let index = 0;
 // Dark and light mode
 
 modeSwitch = document.getElementById("modeSwitch");
-document.getElementById("modeSwitch").addEventListener("click", testMode)
-let modeSwitchColor = ""
+document.getElementById("modeSwitch").addEventListener("click", testMode);
+let modeSwitchColor = "";
+var lightMode = false;
 
 function testMode() {
     modeSwitchColor = window.getComputedStyle(modeSwitch).backgroundColor;
@@ -51,6 +61,8 @@ function initLightMode() {
     $('.navbar').css('backgroundImage', 'linear-gradient(#FFF, #F1EAE1)');
     $('.nav-link').css('color', '#392F5A');
     $('path').attr("fill","#392F5A"); 
+    lightMode = true;
+    console.log(lightMode)
 }
 
 function initDarkMode() {
@@ -58,18 +70,6 @@ function initDarkMode() {
     $('body').css('color', '#F1EAE1').css('backgroundColor', '#392F5A');
     $('.navbar').css('backgroundImage', 'linear-gradient(#000, #392F5A)');
     $('path').attr("fill","#fff"); 
-    $('#modeSwitch').classList.add('slider-dark-mode');
-}
-
-// $('#logo-link').hover(
-//     function() {
-//         $('path').attr("fill","#6AEBEB");
-//     }, function() {
-//         if (lightMode = True) {
-//             $('path').attr("fill","#392F5A");
-//         } else {
-//             $('path').attr("fill","#fff");
-//         };
-        
-//     };
-//   );
+    lightMode = false;
+    console.log(lightMode)
+} 

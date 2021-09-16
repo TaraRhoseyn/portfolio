@@ -171,15 +171,7 @@ nav ul li {
   bottom: 4px;
   background-color: white;
   -webkit-transition: .4s;
-  background-image: url("https://img.icons8.com/ios-glyphs/20/FF8811/sun--v1.png");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
   transition: .4s;
-}
-
-.slider-dark-mode {
-    background-image: url("https://img.icons8.com/external-flatart-icons-outline-flatarticons/20/000000/external-moon-basic-ui-elements-flatart-icons-outline-flatarticons.png");
 }
 
 input:checked + .slider {

@@ -21,18 +21,21 @@ h1 {
 
 h2 {
     font-family: 'Lato', sans-serif;
-    font-size: 25px;
-    letter-spacing: 5px;
+    color: #392F5A;
+    font-size: 45px;
+    letter-spacing: 1px;
     font-weight: 700;
 }
 
 p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
 }
 
 form label {
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
+
 }
 
 i {
@@ -202,7 +205,7 @@ input:checked + .slider:before {
 #home-hero {
     margin: 0 auto;
     width: 100vw;
-    height: 30vh;
+    height: 70vh;
 }
 
 #home-hero h1 {
@@ -307,20 +310,10 @@ input:checked + .slider:before {
 
 /* intro section of home page */ 
 
-#home-introduction img {
-    height: 70%;
-    display: block;
-    margin: 0 auto;
-}
-
 @media screen and (min-width: 1000px) {
     .navbar ul {
         float: right;
         margin-right: 0;
-    }
-
-    .slider {
-
     }
 }
 

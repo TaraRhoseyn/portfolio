@@ -55,7 +55,6 @@ button {
 /* Navbar */ 
 
 .navbar {
-    padding-top: 15px;
     padding-bottom: 15px;
     background-image: linear-gradient(#FFF, #F1EAE1);
     color: #392F5A
@@ -140,8 +139,9 @@ nav ul li {
   display: inline-block;
   width: 57px;
   height: 30px;
-  margin-right: 15px;
+  margin-right: 25px;
   margin-bottom: 15px;
+  margin-top: 5px;
 }
 
 .switch input { 
@@ -293,6 +293,16 @@ input:checked + .slider:before {
     #home-marketing h2, #home-marketing ul {
         margin: 0;
     }
+
+    .navbar ul {
+        margin: auto;
+        align-items: center;
+    }
+
+    .switch {
+        margin-left: 75%;
+        margin-top: -30px;
+    }
 }
 
 /* intro section of home page */ 
@@ -304,19 +314,16 @@ input:checked + .slider:before {
 }
 
 @media screen and (min-width: 1000px) {
-    #introduction-p {
-        margin-top: 100px;
-    }   
+    .navbar ul {
+        float: right;
+        margin-right: 0;
+    }
 
-    #home-marketing {
-        background-image: url("../images/home-marketing-bg.png");
-        height: 100vh;
-        width: 100vw;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
+    .slider {
+
     }
 }
+
 
 .intro {
     height: 450px;
@@ -346,14 +353,6 @@ img:hover {
 .card-body img {
     height: 100px;
     width: 100px;
-}
-
-#home-marketing h2, #home-marketing ul {
-    color: black;
-}
-
-#home-marketing > #home-marketing-text{
-    float: right;
 }
 
 /* mobile, tablet, and laptop stylings to ensure consistency of margins */

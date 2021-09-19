@@ -24,7 +24,7 @@ h2 {
     color: #392F5A;
     font-size: 45px;
     letter-spacing: 1px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 p {
@@ -42,7 +42,7 @@ i {
     color: #392F5A;
 }
 
-button {
+.primary-button {
     background-color: #6aebeb;
     color: #392F5A;
     border: #6aebeb 1px solid;
@@ -230,6 +230,25 @@ input:checked + .slider:before {
     margin-top: 30px;
 }
 
+
+/* home intro section */ 
+
+.secondary-button {
+    fill: #F1EAE1;
+    border: solid #FF8811 3px;
+    border-radius: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #FF8811;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 /* typewriter effect */ 
 
 #typewriter-container {
@@ -281,7 +300,7 @@ input:checked + .slider:before {
     /* to ensure appropriate spacing in hero section on mobile view */
 
     #home-hero {
-        height: 200px;
+        height: 10pv;
     }
 
     #home-hero h1 {
@@ -384,27 +403,6 @@ img:hover {
 
 
 
-/* DEVELOPMENT PAGE */
-
-#dev-head h1 {
-    font-size: 30px;
-    letter-spacing: 10px;
-    margin-top: 100px;
-}
-
-#dev-head span {
-    color: #FF00D6;
-}
-
-.ms1-website {
-    margin-left: 0;
-	margin-right: 0;
-	float: none;
-}
-
-.ms1-website img {
-    height: 50%;
-}
 
 /* FOOTER */ 
 

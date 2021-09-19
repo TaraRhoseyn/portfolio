@@ -61,6 +61,7 @@ function initLightMode() {
     $('.navbar').css('backgroundImage', 'linear-gradient(#FFF, #F1EAE1)');
     $('.nav-link').css('color', '#392F5A');
     $('path').attr("fill","#392F5A"); 
+    $('h2').css('color', '#392F5A'); 
     lightMode = true;
     console.log(lightMode)
 }
@@ -69,7 +70,8 @@ function initDarkMode() {
     $('.nav-link').css('color', '#F1EAE1');
     $('body').css('color', '#F1EAE1').css('backgroundColor', '#392F5A');
     $('.navbar').css('backgroundImage', 'linear-gradient(#000, #392F5A)');
-    $('path').attr("fill","#fff"); 
+    $('path').attr("fill","#fff");
+    $('h2').css('color', '#F1EAE1'); 
     lightMode = false;
     console.log(lightMode)
 } 
